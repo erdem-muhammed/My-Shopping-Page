@@ -1,0 +1,155 @@
+:root
+{
+    --primary: #ff7214;
+    --primary-dark: #e4e3dc;
+    --text: #111;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family: Segoe UI;
+}
+.Title h1
+{
+    color: var(--text);
+    margin-left: 30px;
+    color: var(--primary);
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e3e1da;
+    background-color: #e4e3dc;
+   
+}
+.container ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.container ul li
+{
+    padding: 12px 10px;
+}
+.container ul li a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container ul .selected
+{
+    background-color: var(--primary);
+}
+.container ul .selected a
+{
+    color: white;
+}
+.container ul
+{
+    border-right: 1px solid rgb(211, 142, 142);
+    border-left: 1px solid rgb(211, 142, 142);
+    padding: 0 9px;
+}
+.container span
+{
+    padding: 0 20px;
+    margin: 12px 0;
+    color: var(--text);
+}
+main .mainBox
+{
+  width: 100%;
+  display: flex;
+}
+main .mainBox h1
+{
+    color: var(--text);
+    margin-left: 30px;
+    color: var(--text);
+    width: 70%;
+}
+.products
+{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card
+{
+    width: 25%;
+    border: 1px solid #eee;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0px 0px 8px -1px rgb(0 0 0 / 34%);
+}
+.card>span
+{
+    display: block;
+    border: 1px solid #eee;
+    padding: 10px 0;
+}
+.card .image
+{
+    border: 1px solid #eee;
+}
+.card .image img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info>*
+{
+    width: 50%;
+    padding: 10px 20px;
+}
+.info .left
+{
+    color: var(--primary);
+    background-color: var(--primary-dark);
+    font-size: 1.2em;
+    font-weight: bold;
+    border-right: 1px solid rgb(240, 53, 53);
+    height: 53px;
+}
+.info .right
+{
+    background-color: var(--primary-dark);
+}
+.info .right button
+{
+    padding: 9px 37px;
+    color: white;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    max-height: 100%;
+    max-width: 100%;
+}
+.info .right button:hover
+{
+
+}
+aside
+{
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 100px;
+}
