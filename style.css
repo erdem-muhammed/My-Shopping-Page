@@ -190,3 +190,21 @@ aside button:hover
 {
     background-color: var(--primary-dark);
 }
+#shoppingcart
+{
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--text);
+}
+#notification
+{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--text);
+}

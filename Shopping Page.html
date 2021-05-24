@@ -21,7 +21,7 @@
             <li><a href="">ABOUT US</a></li>
             <li><a href="">CONTACT</a></li>
             </ul>
-            <span class="Credit">
+            <span class="Credit" id="credit">
             Credit:   <b>4500 €</b>
             </span>
            </div>
@@ -44,7 +44,7 @@
                            320, €
                        </div>
                        <div class="right">
-                           <button>ADD</button>
+                           <button onclick="add('Iphone X', 320);">ADD</button>
                        </div>
                    </div>
             </div>
@@ -58,7 +58,7 @@
                         400, €
                     </div>
                     <div class="right">
-                        <button>ADD</button>
+                        <button onclick="add('Iphone SE', 400);">ADD</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                         520, €
                     </div>
                     <div class="right">
-                        <button>ADD</button>
+                        <button onclick="add('Iphone 11', 520);">ADD</button>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                         700, €
                     </div>
                     <div class="right">
-                        <button>ADD</button>
+                        <button onclick="add('Iphone 11 Pro', 700);">ADD</button>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         900, €
                     </div>
                     <div class="right">
-                        <button>ADD</button>
+                        <button onclick="add('Iphone 12', 900);">ADD</button>
                     </div>
                 </div>
             </div>
@@ -114,23 +114,31 @@
                         1100, €
                     </div>
                     <div class="right">
-                        <button>ADD</button>
+                        <button onclick="add('Iphone 12 Pro', 1100);">ADD</button>
                     </div>
                 </div>
             </div>
            </div>
         </div>
         
-            <aside>
-            <h3>Shopping Card</h3>
-            <div class="total">Total:</div>
-            <button>BUY</button>
-            </aside>
+        <aside>
+            <h3>Shopping Cart</h3>
+            <div id="shoppingcart">
+
+            </div>
+            <div class="total" id="totalCost">
+                Total:
+            </div>
+            <button onclick="buy();">BUY</button>
+            <div id="notification">
+
+            </div>
+        </aside>
           
         </div>
    
        </main>
       
-<script>script.js</script>
+<script src="./script.js"></script>
 </body>
 </html>
